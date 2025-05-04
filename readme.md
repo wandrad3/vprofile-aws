@@ -40,7 +40,6 @@ EC2, VPC, Subnets, Security Groups, Load Balancer, Auto Scaling, RDS Aurora, Ela
 config:
   layout: fixed
 ---
-
 flowchart TD
  subgraph subGraph0["Public Subnet"]
         ALB["⚖️ Application Load Balancer"]
@@ -56,7 +55,7 @@ flowchart TD
     ALB --> APP01 & APP02
     APP01 --> ElastiCache & AuroraDB
     APP02 --> ElastiCache & AuroraDB
-
+```
 
 📈 Desenho da Arquitetura
 
