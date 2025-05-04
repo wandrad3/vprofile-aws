@@ -16,7 +16,6 @@ EC2 Auto Scaling com Apache Tomcat para hospedagem da aplicação Java.
 Application Load Balancer (ALB) para distribuição de tráfego.
 Aurora MySQL Cluster como banco de dados principal.
 ElastiCache Memcached para cache distribuído.
-Amazon Route 53 para resolução DNS (simulado).
 CloudFormation Template para infraestrutura como código.
 
 
@@ -57,9 +56,9 @@ flowchart TD
     APP02 --> ElastiCache & AuroraDB
 ```
 
-📈 Desenho da Arquitetura
 
 
-![vagrant-file-arc](https://github.com/user-attachments/assets/a7ce31e6-3661-4c4a-a01c-acd3cec8f828)
+# Desenho da Arquitetura
 
   
+![aws-arc](https://github.com/user-attachments/assets/6d17cc08-b829-49b2-bf23-2627d57e61be)
