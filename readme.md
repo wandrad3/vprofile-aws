@@ -52,11 +52,11 @@ flowchart TD
         ElastiCache["⚡ ElasticCache - Memcached"]
         AuroraDB["💾 AuroraDB Cluster"]
   end
-    DNS --> ALB
-  ALB --> APP01 & APP02
+    Internet --> ALB
+    ALB --> APP01 & APP02
     APP01 --> ElastiCache & AuroraDB
     APP02 --> ElastiCache & AuroraDB
-```
+
 
 📈 Desenho da Arquitetura
 
