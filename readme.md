@@ -1,4 +1,6 @@
 📘 Tutorial de Aprovisionamento de Aplicação Java com AWS CloudFormation
+
+
 ℹ️ Arquitetura da Aplicação:
 
 A aplicação Java vprofile é agora provisionada inteiramente na AWS utilizando um template CloudFormation, substituindo a abordagem anterior com Vagrant e Ruby.
@@ -71,6 +73,7 @@ EC2, VPC, Subnets, Security Groups, Load Balancer, Auto Scaling, RDS Aurora, Ela
 
 📈 Diagrama da Arquitetura
 
+```
 ---
 config:
   layout: fixed
@@ -93,3 +96,4 @@ flowchart TD
     ALB --> APP01 & APP02
     APP01 --> ElastiCache & AuroraDB
     APP02 --> ElastiCache & AuroraDB
+```
