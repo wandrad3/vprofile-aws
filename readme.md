@@ -73,7 +73,7 @@ EC2, VPC, Subnets, Security Groups, Load Balancer, Auto Scaling, RDS Aurora, Ela
 
 📈 Diagrama da Arquitetura
 
-```
+```mermaid
 ---
 config:
   layout: fixed
